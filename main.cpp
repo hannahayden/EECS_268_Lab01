@@ -2,8 +2,8 @@
 
 #include <iostream>
 #include <string>
-#include <Colosseum.h>
-#include <Pokemon.h>
+#include "Colosseum.h"
+#include "Pokemon.h"
 
 int main()
   {
