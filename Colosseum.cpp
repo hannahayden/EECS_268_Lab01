@@ -64,7 +64,7 @@ void Pokemon::userBuild();
         }
         
         ifValid = false;
-        std::cout << "Next, split 50 points between attack level and defense level." << std::end1;
+        std::cout << "Next, split 50 points between attack level and defense level." << std::endl;
         std::cout << "Enter your attack level (1-49): ";
         while(!ifValid)
         {
@@ -121,7 +121,6 @@ void play(Pokemon& p1, Pokemon& p2)
     int round = 1;
     
    
-}
      while(!isGameOver)
     {
         std::cout << "Round " << round << "!" <<std::endl;
@@ -142,6 +141,7 @@ void play(Pokemon& p1, Pokemon& p2)
     }
     
     return 0;
+}
 
 
 

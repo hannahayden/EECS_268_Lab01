@@ -5,7 +5,9 @@ Date: 2/2/16
 Description: Header file of Pokemon class
 */
 
-#
+#ifndef POKEMON_H
+#define POKEMON_H
+
 #include <string>
 #include "Dice.h"
 

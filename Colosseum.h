@@ -16,16 +16,9 @@ class Colosseum
     Dice d6;
 
   public:
-    Colosseum()
-    {
-      Dice d20 = new Dice(20);
-      Dice d6 = new Dice(6);
-    }
+    Colosseum();
 
-    void userBuild(Pokemon& p)
-    {
-      std::cout << "Please name your Pokemon:" << 
-    }
-}
+    void userBuild(Pokemon& p);
+};
 
 #endif

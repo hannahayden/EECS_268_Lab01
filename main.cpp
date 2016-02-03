@@ -6,7 +6,7 @@
 #include "Pokemon.h"
 
 int main()
-  {
+{
     Pokemon firstPokemon;
     std::cout << "Player 1, build your Pokemon!" << "\n=======================\n";
     firstPokemon.userBuild();
@@ -18,7 +18,7 @@ int main()
     Pokemon pokemon2;
     
 
-        
+}
         
         
         
